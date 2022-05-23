@@ -8,6 +8,8 @@ authors = ["kmlee78 <jaoming787@gmail.com>"]
 python = "^3.8"
 fastapi = "^0.75.1"
 uvicorn = {extras = ["standard"], version = "^0.17.6"}
+alembic = "^1.7.7"
+psycopg2-binary = "^2.9.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
