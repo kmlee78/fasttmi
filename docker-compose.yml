@@ -27,7 +27,7 @@ services:
     networks:
       - shared_network
     environment:
-      POSTGRES_DB: toy_project
+      POSTGRES_DB: fast_tmi
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
 
